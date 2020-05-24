@@ -18,6 +18,7 @@ Deployed at http://api-alpha-task-manager.herokuapp.com/
 * User profiles
 * Image uploads
 * JWT authentication
+* Password hashing using slow hashing techniques for advanced security purposes.
 * Login from multiple devices
 * Auto resize and cropping of user avatars
 * Sending out welcome emails to every signed up user
