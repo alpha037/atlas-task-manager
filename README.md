@@ -1,3 +1,5 @@
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+
 # Task-Manager-REST-API
 
 A RESTful API for creating, reading and managing tasks and their respective users. Hosted on MongoDB Atlas, this REST api provides fast
