@@ -8,7 +8,7 @@ access to anything you need. Documentation provided below.
 
 ## Deployment
 
-Deployed at http://api-alpha-task-manager.herokuapp.com/
+Deployed at http://task-manager.shubhranil.com
 
 
 ## Features Include
