@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "start:dev": "env-cmd -f ./config/dev.env node src/index.js",
+    "start:dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
     "start:prod": "env-cmd -f ./config/prod.env node src/index.js",
     "test": "env-cmd -f ./config/dev.env jest --watchAll --runInBand"
   },
