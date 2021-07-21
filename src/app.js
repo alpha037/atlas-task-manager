@@ -13,7 +13,11 @@ app.get("/", (req, res) => {
   res.send("Health Check!");
 });
 
-app.use(userRouter);
-app.use(taskRouter);
+app.get("/v1", (req, res) => {
+  res.send("Health Check for v1");
+});
+
+app.use("/v1/", userRouter);
+app.use("/v1/", taskRouter);
 
 module.exports = app;
