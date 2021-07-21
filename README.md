@@ -76,6 +76,8 @@ Since this application needs to talk to a database, so, you can either create yo
 
 ## API Endpoints
 
+**Note**: All the API endpoints are prefixed by **/v1/** for better versioning. Ex: `BASE_URL/v1/users`.
+
 <strong>[POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)</strong> Endpoints:
 
 |     Endpoint     | Verb |                     Description                     |
